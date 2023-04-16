@@ -1,3 +1,64 @@
+##############################
+#                            #
+#          GENERAL           #
+#                            #
+##############################
+
+.vscode
+
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+local.properties
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+log/
+*.log
+*.sql
+*.sqlite
+
+# VCS
+.svn
+.svn/
+CVS
+
+# Sensitive information
+.env
+
+##############################
+#                            #
+#          DOCKER            #
+#                            #
+##############################
+
+.DS_Store
+
+##############################
+#                            #
+#         TERRAFORM          #
+#                            #
+##############################
+
 # Local .terraform directories
 **/.terraform/*
 
